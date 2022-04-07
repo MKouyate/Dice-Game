@@ -1,0 +1,72 @@
+html, body { 
+	background:#fce4f1;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Shrikhand', cursive;
+    height: 100vh;
+    color:#6e5a7e ;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+	box-shadow: 10px 10px;
+	border:solid 4px #473950;
+	border-radius:10px;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #e8c5ff;
+    margin: 0 auto;
+    font-size: 80px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+	
+}
+
+
+button {
+	color:#6e5a7e ;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 7px;
+	background-color: #e8c5ff;
+    cursor: pointer;
+	border:solid 2px ;
+	font-family: 'Shrikhand', cursive;
+}
+
+button:focus {
+    outline: none;
+}
+
+#resetBtn {
+	background-color:#b9a3f8;
+	color:white;
+	border:solid 2px;
+	border-radius:5px;
+    display: none;
+}
+
+.active {
+    border:solid 4px;
+}
